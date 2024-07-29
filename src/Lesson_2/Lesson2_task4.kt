@@ -4,16 +4,13 @@ fun main() {
 
     val crystals = 7
     val metals = 11
-    val buff: Float = 0.2f
+    val buff = 20
 
-
-    val bonus = (crystals * buff).toInt()
-    val bonus1 = (metals * buff).toInt()
-
-
+    // %
+    val bonus = (crystals * buff) / 100
+    val bonus1 = (metals * buff) / 100
 
     println("Кристаллическая руда = $bonus")
     println("Железная руда = $bonus1")
-
 
 }
