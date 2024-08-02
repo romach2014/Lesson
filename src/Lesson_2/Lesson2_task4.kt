@@ -6,9 +6,9 @@ fun main() {
     val metals = 11
     val buff = 20
 
-    // %
-    val bonus = (crystals * buff) / 100
-    val bonus1 = (metals * buff) / 100
+    val percent = 100
+    val bonus = (crystals * buff) / percent
+    val bonus1 = (metals * buff) / percent
 
     println("Кристаллическая руда = $bonus")
     println("Железная руда = $bonus1")
